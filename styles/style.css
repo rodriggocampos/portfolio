@@ -78,7 +78,6 @@ body {
 .apresentacao__conteudo__texto {
     font-size: 1.2rem;
     font-family: var(--font-secundaria);
-    text-align: justify;
 }
 
 .apresentacao__links {
