@@ -32,7 +32,7 @@ body {
 
 .cabecalho__menu__link {
     font-family: var(--font-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -43,7 +43,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
+    gap: 5%;
 }
 
 .apresentacao__conteudo {
@@ -62,7 +62,7 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: var(--font-primaria);
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: var(--font-secundaria);
     text-align: justify;
 }
@@ -91,8 +91,8 @@ body {
 
 .apresentacao__links__subtitulo{
     font-family: var(--font-primaria);
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight:400;
+    font-size: 1.25rem;
 }
 
 .apresentacao__links__navegacao {
@@ -105,7 +105,7 @@ body {
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 5% 15%;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--font-secundaria);
@@ -120,12 +120,12 @@ body {
 }
 
 .rodape {
-    padding: 24px;
+    padding: 1%;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--font-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
 } 
 
@@ -141,6 +141,7 @@ body {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
+        gap: 50px;
     }
 
     .apresentacao__conteudo {
